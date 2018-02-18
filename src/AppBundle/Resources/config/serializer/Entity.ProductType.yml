@@ -1,0 +1,7 @@
+AppBundle\Entity\ProductType:
+    exclusion_policy: none
+    properties:
+        name:
+            groups: ['product_type', 'product']
+        description:
+            groups: ['product_type', 'product']

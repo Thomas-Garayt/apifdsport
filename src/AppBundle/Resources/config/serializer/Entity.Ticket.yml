@@ -1,0 +1,11 @@
+AppBundle\Entity\Ticket:
+    exclusion_policy: none
+    properties:
+        category:
+            groups: ['ticket','match']
+        price:
+            groups: ['ticket','match']
+        match:
+            groups: ['ticket']
+        axe:
+            groups: ['ticket','click']

@@ -1,0 +1,17 @@
+AppBundle\Entity\Product:
+    exclusion_policy: none
+    properties:
+        type:
+            groups: ['product']
+        description:
+            groups: ['product']
+        is_fixed:
+            groups: ['product']
+        price:
+            groups: ['product']
+        axe:
+            groups: ['product','click']
+        img:
+            groups: ['product']
+        name:
+            groups: ['product','click']

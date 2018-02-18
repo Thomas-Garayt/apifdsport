@@ -1,0 +1,11 @@
+AppBundle\Entity\User:
+    exclusion_policy: none
+    properties:
+        cookie:
+            groups: ['user', 'click']
+        firstname:
+            groups: ['user', 'click']
+        lastname:
+            groups: ['user', 'click']
+        axe:
+            groups: ['user', 'click']

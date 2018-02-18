@@ -1,0 +1,23 @@
+AppBundle\Entity\Match:
+    exclusion_policy: none
+    properties:
+        home:
+            groups: ['match','ticket','click']
+        visitor:
+            groups: ['match','ticket','click']
+        address:
+            groups: ['match','ticket']
+        sport:
+            groups: ['match','ticket']
+        axe:
+            groups: ['match','click']
+        img:
+            groups: ['match','click']
+        tickets:
+            groups: ['match','click']
+        date:
+            groups: ['match','click']
+        hour:
+            groups: ['match']
+        price:
+            groups: ['match']

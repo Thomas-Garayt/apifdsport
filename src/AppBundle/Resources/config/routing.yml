@@ -1,0 +1,52 @@
+app:
+    resource: "@AppBundle/Controller/DefaultController.php"
+    type:     annotation
+
+nelmio-api-doc:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /documentation
+
+# Axe
+axe:
+    type:     rest
+    resource: AppBundle\Controller\Axe\AxeController
+
+# Brand
+brand:
+    type:     rest
+    resource: AppBundle\Controller\Brand\BrandController
+
+# Click
+click:
+    type:     rest
+    resource: AppBundle\Controller\Click\ClickController
+
+# Cookie
+cookie:
+    type:     rest
+    resource: AppBundle\Controller\Cookie\CookieController
+
+# Match
+match:
+    type:     rest
+    resource: AppBundle\Controller\Match\MatchController
+
+# Product
+product:
+    type:     rest
+    resource: AppBundle\Controller\Product\ProductController
+
+# ProductType
+producttype:
+    type:     rest
+    resource: AppBundle\Controller\ProductType\ProductTypeController
+
+# Ticket
+ticket:
+    type:     rest
+    resource: AppBundle\Controller\Ticket\TicketController
+
+# User
+user:
+    type:     rest
+    resource: AppBundle\Controller\User\UserController

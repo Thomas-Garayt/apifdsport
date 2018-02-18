@@ -1,0 +1,27 @@
+AppBundle\Entity\Axe:
+    exclusion_policy: none
+    properties:
+        is_fixed:
+            groups: ['axe','click', 'user']
+        brand:
+            groups: ['axe','click', 'user']
+        age:
+            groups: ['axe','click', 'user']
+        csp:
+            groups: ['axe','click', 'user']
+        sport:
+            groups: ['axe','click', 'user']
+        city:
+            groups: ['axe','click', 'user']
+        male:
+            groups: ['axe','click', 'user']
+        female:
+            groups: ['axe','click', 'user']
+        user:
+            groups: ['axe','click']
+        product:
+            groups: ['axe','click']
+        match:
+            groups: ['axe','click']
+        ticket:
+            groups: ['axe','click']

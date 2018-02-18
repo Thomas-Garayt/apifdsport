@@ -1,0 +1,7 @@
+AppBundle\Entity\Brand:
+    exclusion_policy: none
+    properties:
+        name:
+            groups: ['brand']
+        description:
+            groups: ['brand']

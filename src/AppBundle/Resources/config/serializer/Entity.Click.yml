@@ -1,0 +1,9 @@
+AppBundle\Entity\Click:
+    exclusion_policy: none
+    properties:
+        user:
+            groups: ['click']
+        product:
+            groups: ['click']
+        match:
+            groups: ['click']
